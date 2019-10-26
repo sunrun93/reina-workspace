@@ -1,7 +1,7 @@
 <div class='header'>
   <div>Welcome to Reina's Workspace</div>
   <div class='user-pane' [class.shadow-border]='displayMenu'>
-    <div class='user-name' (click)='toggleMenu()'>Reina Wang</div>
+    <div class='user-name' (click)='toggleMenu($event)'>Reina Wang</div>
     <ul class='menu' [class.show-menu]='displayMenu'>
       <li>Menu 1</li>
       <li>Menu 2</li>

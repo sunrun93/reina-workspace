@@ -5,12 +5,12 @@
     height: 40px;
     align-items: center;
     background: cornsilk;
-
+    padding: 0 10px;
 }
 .user-pane{
     margin-top: 100px;
     width:150px;
-    border:2px solid rgba(221, 221, 221, 0);
+    border:2px solid rgba(0, 0, 0, 0);
 }
 
 .user-name{
@@ -23,12 +23,19 @@
 }
 .shadow-border{
     border:2px solid #ddd;
+    box-shadow:2px 2px 5px #333333;
 }
 .menu{
     visibility: hidden;
+    margin:0;
+    padding:0;
 }
 .show-menu{
     list-style: none;
     visibility: visible;
     display: block;
+}
+
+.menu li{
+    padding: 5px 40px;
 }
